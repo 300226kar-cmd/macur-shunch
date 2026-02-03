@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(252, 253, 254);
+  margin: 0px;
+  padding: 0px;
+  font-family: fantasy;
+}
+#patker {
+  height: 450px;
+  background: linear-gradient(135deg, #272d98, #a3a5ea);
+  position: relative;
+}
+
+#patker > p {
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-shadow: -7px 5px 8px rgb(218, 218, 224);
+  text-align: center;
+}
+#patker1 > p {
+  color: rgb(243, 244, 243);
+  text-align: left;
+  left: 20px;
+  top: 20px;
+  font-size: 35px;
+  position: absolute;
+}
+.img5 {
+  width: 700px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 15px solid rgb(241, 243, 245);
+  border-radius: 20px;
+}
+.img5 > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+.text5{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px solid rgb(208, 221, 230);
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+p {
+  font-size: 30px;
+  color: #03056f;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+.text2,
+.text4 {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.img2 > p {
+  font-size: 25px;
+}
+.img1 {
+  margin: 15px 2.5% ;
+  width: 95%;
+  min-height:250px;
+  border: 10px solid rgb(163, 184, 242);
+  border-radius: 20px;
+}
+.img2 {
+  float: left;
+  width: 400px;
+  height: 230px;
+}
+.img2>img {
+  padding-right: 15px;
+  width:100%;
+  height: 100%;
+}
+.text3 {
+  text-align: center;
+}
+/* Պլանշետ (մինչև 1024px) */
+@media (max-width: 1024px) {
+  #patker > p {
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+
+  .img5 {
+    width: 90%;
+    height: auto;
+  }
+
+  .img2,
+  .img2 img {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding-right: 0;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  #patker {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #patker > p {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+
+  #patker1 > p {
+    font-size: 20px;
+    position: static;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .img5 {
+    width: 95%;
+    border-width: 8px;
+  }
+
+  .img1 {
+    height: auto;
+  }
+
+  p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .text2,
+  .text4 {
+    display: block;
+    font-size: 20px;
+  }
+}
