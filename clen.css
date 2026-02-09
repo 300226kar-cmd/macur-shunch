@@ -180,7 +180,7 @@ p {
 @media (max-width:600px) {
   #patker {
     width:100%;
-    height: auto;
+    height: 300px;
   }
 
   #patker > p {
@@ -225,4 +225,5 @@ p {
     font-size: 15px;
   }
 }
+
 
