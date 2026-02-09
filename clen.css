@@ -184,6 +184,7 @@ p {
   }
 
   #patker > p {
+    margin:5px;
     font-size: 24px;
     letter-spacing: 3px;
   }
@@ -191,7 +192,7 @@ p {
   #patker1 > p {
     font-size: 15px;
     position: static;
-    margin: 10px;
+    margin: 5px 10px;
   }
 
   .img5 {
@@ -225,6 +226,7 @@ p {
     font-size: 15px;
   }
 }
+
 
 
 
